@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(223, 81, 81);
+    
+}
+input[type=text],select{
+    width: 100%;
+    padding: 10px;
+    margin: 1px 1px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+    
+}
+
+.paragraph{
+    color: white;
+    margin-top:10%;
+    padding-left: 5%;
+    width: 40%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.section{
+    color: white;
+    width: 40%;
+    margin-left: 10%;
+    box-sizing: border-box;
+}
+.container{
+    padding: 5%;
+    display: flex;
+    
+}
+.free-trial{
+    background-color: rgba(55, 0, 128, 0.904);
+    width: 98%;
+    padding: 6px;
+    border-radius: 4px;
+    text-align: center;
+    margin: top;
+}
+form{
+    background-color: white;
+    height: 320px;
+    margin-top: 2%;
+    padding: 5%;
+    border-radius: 5px;
+    border: 2px;
+}
+
+
+.claim h3{
+    background-color: green;
+    color: white;
+    /* margin: 0 5%; */
+    width: 95%;
+    border-radius: 3px;
+    font-size: small;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+.clicking p{
+    color: black;
+    font-size: .8em;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 0;
+    text-align: left;
+}
+p{
+    margin: 0%;
+    text-align: left;
+    font-size: .8em;
+}
+#terms{
+    color: red;
+}
